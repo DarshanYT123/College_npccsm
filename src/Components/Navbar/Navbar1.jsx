@@ -43,10 +43,12 @@ const Navbar1 = () => {
         </div>
         <div>
           <div className="flex flex-row">
-            <div className="flex flex-col ">
-              <h1 className="text-[16px] not-italic font-semibold font-inter leading-normal tracking-[0.24px] text-[#B42120]">
+            <div className="flex flex-col cursor-pointer ">
+            <a href="/desk">
+              <h1 className="text-[16px] not-italic cursor-pointer font-semibold font-inter leading-normal tracking-[0.24px] text-[#B42120]">
                 Who We Are?
               </h1>
+              </a>
               <h3 className="text-[12px] not-italic font-medium  leading-normal font-inter tracking-[0.12px] text-[#FFA800]">
                 Administration
               </h3>

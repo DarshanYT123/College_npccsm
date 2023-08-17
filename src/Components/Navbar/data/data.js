@@ -37,6 +37,6 @@ export const navLinks = [
       },
       {
         name: "Contact Us",
-        path: "#contactus",
+        path: "/contactus",
       },
   ];
