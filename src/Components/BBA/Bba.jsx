@@ -1,42 +1,38 @@
 import React from "react";
 import Inquiry from "../Homepage/Inquiry";
 import Slider from "../Slider/Slider";
+import Hero from "../VericalSlider/Hero";
 const Bba = () => {
-
-     const Featuresdata=[
-        {
-            list:`Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
-        },
-        {
-            list:`Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
-        },
-        {
-            list:`Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
-        },
-        {
-            list:`Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
-        },
-       
-
-     ]
+  const Featuresdata = [
+    {
+      list: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+    },
+    {
+      list: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+    },
+    {
+      list: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+    },
+    {
+      list: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+    },
+  ];
   return (
-
-
     <>
-
-<div className="lg:px-12   pt-10 px-5 py-5">
+      <div className="lg:px-12   pt-10 px-5 py-5">
         <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
-        All About BBA in NPCCSM
+          All About BBA in NPCCSM
         </h1>
-  </div>
+      </div>
       {/*=====slider */}
-      <Slider/>
+      <Hero />
       {/*============ */}
       <div className="px-10 md:px-10 lg:px-12 py-5 lg:py-10 md:py-10">
         <div className="flex flex-col items-center gap-6   lg:flex-row ">
           <div className="">
             <p className="text-justify text-[#000] text-[16px] not-italic font-medium leading-[177.5%] font-inter">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <b className="text-justify pl-6  text-[#000] text-[28px] not-italic font-medium leading-[177.5%] font-inter">L</b>
+              orem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis
               scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit
               mauris ipsum id sapien. Vestibulum malesuada orci sit amet pretium
@@ -57,7 +53,7 @@ const Bba = () => {
 
           <div className="">
             <img
-              src="./img/npc1.png"
+              src="/img/npc1.png"
               alt="image1"
               className="w-[470rem] h-[25rem] md:w-[200rem] md:[20rem]  lg:w-[470rem] lg:h-[25rem]"
             />
@@ -83,7 +79,7 @@ const Bba = () => {
         <div className="flex flex-col items-center gap-6   lg:flex-row ">
           <div className="">
             <img
-              src="./img/npc1.png"
+              src="/img/npc1.png"
               alt="image1"
               className="w-[470rem] h-[25rem] md:w-[200rem] md:[20rem]  lg:w-[470rem] lg:h-[25rem]"
             />
@@ -92,7 +88,8 @@ const Bba = () => {
           <div className="">
             <p className="text-justify text-[#000] text-[16px] not-italic font-medium leading-[177.5%] font-inter">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <b className="text-justify pl-6  text-[#000] text-[28px] not-italic font-medium leading-[177.5%] font-inter">L</b>
+              orem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis
               scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit
               mauris ipsum id sapien. Vestibulum malesuada orci sit amet pretium
@@ -133,28 +130,22 @@ const Bba = () => {
           </p>
         </div>
 
-            {
-                Featuresdata.map((data, index) =>{
-                    return(
-<div className="flex flex-col  lg:flex-row  lg:gap-10 items-center  justify-center ">
-           <ul className="list-disc">
-            <li 
-            className="py-3 lg:py-2 text-[color:var(--02,#FFA800)] text-[10px] md:text-[18px] font-inter not-italic  font-semibol leading-normal ">
-                {data.list}
-            </li>
-           </ul>
-           <ul className="list-disc">
-            <li 
-            className=" lg:py-2 text-[color:var(--02,#FFA800)]  text-[10px] md:text-[18px] font-inter not-italic  font-semibol leading-normal ">
-                {data.list}
-            </li>
-           </ul>
-        </div>
-                    )
-                }
-                )
-            }
-        
+        {Featuresdata.map((data, index) => {
+          return (
+            <div className="flex flex-col  lg:flex-row  lg:gap-10 items-center  justify-center ">
+              <ul className="list-disc">
+                <li className="py-3 lg:py-2 text-[color:var(--02,#FFA800)] text-[10px] md:text-[18px] font-inter not-italic  font-semibol leading-normal ">
+                  {data.list}
+                </li>
+              </ul>
+              <ul className="list-disc">
+                <li className=" lg:py-2 text-[color:var(--02,#FFA800)]  text-[10px] md:text-[18px] font-inter not-italic  font-semibol leading-normal ">
+                  {data.list}
+                </li>
+              </ul>
+            </div>
+          );
+        })}
 
         {/*==================================four section end===================== */}
 
@@ -177,41 +168,42 @@ const Bba = () => {
           </p>
         </div>
 
-            <div className="flex flex-col md:flex-row md:gap-10 px-5 md:px-5 ">
-
-              <ul className="list-disc">
-                <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px]  font-inter not-italic  font-semibol leading-normal">
-                  Placements Partners</li>
-                  <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px] font-inter not-italic  font-semibol leading-normal">
-                  Placements Partners</li>
-              </ul>
-              <ul className="list-disc">
-                <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px] font-inter not-italic  font-semibol leading-normal">
-                  Placements Partners</li>
-                  <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px] font-inter not-italic  font-semibol leading-normal">
-                  Placements Partners</li>
-              </ul>
-            </div>
+        <div className="flex flex-col md:flex-row md:gap-10 px-5 md:px-5 ">
+          <ul className="list-disc">
+            <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px]  font-inter not-italic  font-semibol leading-normal">
+              Placements Partners
+            </li>
+            <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px] font-inter not-italic  font-semibol leading-normal">
+              Placements Partners
+            </li>
+          </ul>
+          <ul className="list-disc">
+            <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px] font-inter not-italic  font-semibol leading-normal">
+              Placements Partners
+            </li>
+            <li className="py-2 text-[color:var(--02,#FFA800)] text-[11px] md:text-[18px] font-inter not-italic  font-semibol leading-normal">
+              Placements Partners
+            </li>
+          </ul>
+        </div>
 
         {/*==================================fourth section end===================== */}
 
         {/* ==========know more button= */}
 
         <div className="py-5">
-        <button
-              type="button"
-              class="text-[16px] font-Poppins not-italic font-semibold leading-[93.833%] rounded-[4px] border border-[#B42120] text-[#FFF] bg-[#B42120] px-8 py-2.5"
-            >
-              Know More
-            </button>
+          <button
+            type="button"
+            class="text-[16px] font-Poppins not-italic font-semibold leading-[93.833%] rounded-[4px] border border-[#B42120] text-[#FFF] bg-[#B42120] px-8 py-2.5"
+          >
+            Know More
+          </button>
         </div>
 
         {/* ==========end button===== */}
       </div>
 
       {/*======================Inquiry page===== */}
-
-      <Inquiry />
 
       {/*======================end=============== */}
     </>

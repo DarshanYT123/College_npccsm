@@ -15,6 +15,7 @@ import Bba from "./Components/BBA/Bba";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Inquiry from "./Components/Homepage/Inquiry";
 
 function App() {
   // for aos
@@ -29,15 +30,16 @@ function App() {
           <Route path="/aboutSVKM" element={<Aboutus />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/desk" element={<ChairmanDesk />} />
-          <Route path="/team" element={<ChairmanTeam />} />
+          <Route path="/faculties" element={<ChairmanTeam />} />
           <Route path="/syllabus" element={<Syllabus />} />
           <Route path="/ncc" element={<Ncc />} />
           <Route path="/nss" element={<Nss />} />
           <Route path="/sports" element={<Sports />} />
-          <Route path="/bca" element={<Bca />}/>
-          <Route path="/bba" element={<Bba />}/>
+          <Route path="/bca" element={<Bca />} />
+          <Route path="/bba" element={<Bba />} />
         </Routes>
       </Router>
+      <Inquiry />
       <Footer />
 
       {/* 

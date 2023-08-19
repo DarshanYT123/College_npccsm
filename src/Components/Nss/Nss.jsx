@@ -1,6 +1,7 @@
 import React from "react";
 import Inquiry from "../Homepage/Inquiry";
 import Slider from "../Slider/Slider";
+import Hero from "../VericalSlider/Hero";
 
 const Nss = () => {
   return (
@@ -10,24 +11,28 @@ const Nss = () => {
           NSS
         </h1>
       </div>
-      <Slider />
-      <div className="">
-        <p className="text-[16px] font-inter px-10 gap-y-3 ">
-        Volunteers works selflessly on “Don’t wait for the change, be the change”.
-          <br/>
-          BPCCS is running 1 unit (100 Volunteers) of NSS. Students is actively participating social activities like Blood Donation Camp, Medical Check up Camp, 
-          <br/>
+      <Hero />
+      <div className="mt-5">
+        <p className="text-[16px]    text-justify font-inter not-italic font-medium leading-[202.523%] px-10 gap-y-3">
+          Volunteers works selflessly on “Don’t wait for the change, be the
+          change”.
+          <br />
+          BPCCS is running 1 unit (100 Volunteers) of NSS. Students is actively
+          participating social activities like Blood Donation Camp, Medical
+          Check up Camp,
+          <br />
           Thalassemia Awareness and Testing Camp.
-     <br/>
-     Every Year volunteers are celebrating Engineers Day, Aids Day, Women’s Day, Population Day, Ozone Day, Teachers Day and Sanvedna Saptaah.
-          <br/>
-          Volunteers are participating in 7 days residential camp in different village.
-          <br/>
-          Volunteers have participated in National Integration Camp, Pre Republic Day Camp and attended BHARTIYA CHATRA SANSAD Seminar.
+          <br />
+          Every Year volunteers are celebrating Engineers Day, Aids Day, Women’s
+          Day, Population Day, Ozone Day, Teachers Day and Sanvedna Saptaah.
+          <br />
+          Volunteers are participating in 7 days residential camp in different
+          village.
+          <br />
+          Volunteers have participated in National Integration Camp, Pre
+          Republic Day Camp and attended BHARTIYA CHATRA SANSAD Seminar.
         </p>
       </div>
-
-      <Inquiry />
     </div>
   );
 };

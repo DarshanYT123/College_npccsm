@@ -1,6 +1,7 @@
 import React from "react";
 import Inquiry from "../Homepage/Inquiry";
 import Slider from "../Slider/Slider";
+import Hero from "../VericalSlider/Hero";
 
 const Sports = () => {
   return (
@@ -10,9 +11,9 @@ const Sports = () => {
           Sports
         </h1>
       </div>
-      <Slider />
-      <div className="">
-        <p className="text-[16px] font-inter px-14 text-justify ">
+      <Hero /> 
+      <div className="mt-5">
+        <p className="text-[16px] font-inter px-14 text-justify  not-italic font-medium leading-[202.523%]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque
           aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum id
@@ -31,62 +32,63 @@ const Sports = () => {
         </p>
       </div>
       <div className="flex flex-col gap-y-10 py-10 px-14">
-        <div className=" flex flex-row gap-x-10">
-          <div className="w-[40%]">
-            <img src="./img/kabbdi.png" className="" />
+        <div className=" flex flex-col md:flex-row md:gap-x-10">
+          <div className="md:w-[40%]">
+            <img src="./img/kabbdi.png" className="" alt="" />
           </div>
-          <div className="flex flex-col w-[60%]">
-          <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
-                    Kabbdi</h1>
-<p className="text-[16px] font-inter  text-justify  pt-5 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque
-            aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum
-            id sapien. Vestibulum malesuada orci sit amet pretium facilisis. In
-            lobortis congue augue, a commodo libero tincidunt scelerisque. Donec
-            tempus congue lacinia. Phasellus lacinia felis est, placerat commodo
-            odio tincidunt iaculis. Sed felis magna, iaculis a metus id,
-            ullamcorper suscipit nulla. Fusce facilisis, nunc ultricies posuere
-            porttitor, nisl lacus tincidunt diam, vel feugiat nisi elit id
-            massa. Proin nulla augue, dapibus non justo in, laoreet commodo
-            nunc. Maecenas faucibus neque in nulla mollis interdum. Quisque quis
-            pellentesque enim, vitae pulvinar purus. Quisque vitae suscipit
-            risus. Curabitur scelerisque magna a interdum pretium. Integer
-            sodales metus ut placerat viverra. Curabitur accumsan, odio quis
-            vehicula imperdiet, tellus ex venenatis nisl, a dignissim lectus
-            augue tincidunt arcu.
-          </p>
+          <div className="flex flex-col md:w-[60%]">
+            <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
+              Kabbdi
+            </h1>
+            <p className="text-[16px] font-inter  text-justify  pt-5 not-italic font-medium leading-[202.523%] ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis
+              scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit
+              mauris ipsum id sapien. Vestibulum malesuada orci sit amet pretium
+              facilisis. In lobortis congue augue, a commodo libero tincidunt
+              scelerisque. Donec tempus congue lacinia. Phasellus lacinia felis
+              est, placerat commodo odio tincidunt iaculis. Sed felis magna,
+              iaculis a metus id, ullamcorper suscipit nulla. Fusce facilisis,
+              nunc ultricies posuere porttitor, nisl lacus tincidunt diam, vel
+              feugiat nisi elit id massa. Proin nulla augue, dapibus non justo
+              in, laoreet commodo nunc. Maecenas faucibus neque in nulla mollis
+              interdum. Quisque quis pellentesque enim, vitae pulvinar purus.
+              Quisque vitae suscipit risus. Curabitur scelerisque magna a
+              interdum pretium. Integer sodales metus ut placerat viverra.
+              Curabitur accumsan, odio quis vehicula imperdiet, tellus ex
+              venenatis nisl, a dignissim lectus augue tincidunt arcu.
+            </p>
           </div>
         </div>
-        <div className=" flex flex-row gap-x-10 ">
-            <div className="w-[60%]">
+        <div className=" flex flex-col md:flex-row gap-x-10 ">
+          <div className="md:w-[60%]">
             <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
-                    Cricket</h1>
-        <p className="text-[16px]  text-justify font-inter  pt-5 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque
-            aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum
-            id sapien. Vestibulum malesuada orci sit amet pretium facilisis. In
-            lobortis congue augue, a commodo libero tincidunt scelerisque. Donec
-            tempus congue lacinia. Phasellus lacinia felis est, placerat commodo
-            odio tincidunt iaculis. Sed felis magna, iaculis a metus id,
-            ullamcorper suscipit nulla. Fusce facilisis, nunc ultricies posuere
-            porttitor, nisl lacus tincidunt diam, vel feugiat nisi elit id
-            massa. Proin nulla augue, dapibus non justo in, laoreet commodo
-            nunc. Maecenas faucibus neque in nulla mollis interdum. Quisque quis
-            pellentesque enim, vitae pulvinar purus. Quisque vitae suscipit
-            risus. Curabitur scelerisque magna a interdum pretium. Integer
-            sodales metus ut placerat viverra. Curabitur accumsan, odio quis
-            vehicula imperdiet, tellus ex venenatis nisl, a dignissim lectus
-            augue tincidunt arcu.
-          </p>
+              Cricket
+            </h1>
+            <p className="text-[16px]  text-justify font-inter  pt-5 not-italic font-medium leading-[202.523%]  ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis
+              scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit
+              mauris ipsum id sapien. Vestibulum malesuada orci sit amet pretium
+              facilisis. In lobortis congue augue, a commodo libero tincidunt
+              scelerisque. Donec tempus congue lacinia. Phasellus lacinia felis
+              est, placerat commodo odio tincidunt iaculis. Sed felis magna,
+              iaculis a metus id, ullamcorper suscipit nulla. Fusce facilisis,
+              nunc ultricies posuere porttitor, nisl lacus tincidunt diam, vel
+              feugiat nisi elit id massa. Proin nulla augue, dapibus non justo
+              in, laoreet commodo nunc. Maecenas faucibus neque in nulla mollis
+              interdum. Quisque quis pellentesque enim, vitae pulvinar purus.
+              Quisque vitae suscipit risus. Curabitur scelerisque magna a
+              interdum pretium. Integer sodales metus ut placerat viverra.
+              Curabitur accumsan, odio quis vehicula imperdiet, tellus ex
+              venenatis nisl, a dignissim lectus augue tincidunt arcu.
+            </p>
           </div>
-          <div className="w-[40%]">
-            <img src="./img/cricket.png" />
+          <div className="md:w-[40%]">
+            <img src="./img/cricket.png" alt="Cricket" />
           </div>
         </div>
       </div>
-      <Inquiry />
     </div>
   );
 };

@@ -82,7 +82,7 @@ const Galleryswiper = () => {
             />
           </SwiperSlide>
         ))}
-        <div className="py-12 flex justify-center ">
+        <div className="pb-12 flex justify-center ">
           <div className="flex flex-row absolute gap-x-44 ">
             <div className="button-prev-slide  rounded-full  border-[2px] border-[#B42120]   text-[#B42120] cursor-pointer  ">
               <BsChevronLeft size={40} className=" rounded-full text-[#B42120] hover:bg-[#B42120] hover:text-[#fff]  p-2  " />

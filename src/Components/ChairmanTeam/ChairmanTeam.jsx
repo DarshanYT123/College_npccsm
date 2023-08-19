@@ -5,159 +5,159 @@ const ChairmanTeam = () => {
   const techs = [
     {
       id: 1,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 2,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 3,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 4,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 5,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 6,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 7,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 8,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 9,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 10,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 11,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks,Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
     {
       id: 12,
-      src: "./img/meetimg.png",
+      src: "/img/meeting.png",
       title: "Naveen Mehta",
       title2: "Director",
       Q1: "Qualification :",
       Q2: "Ph.D,M.Phli(CS),MCA,B.Sc.",
-      Aoi1:"Area of Interest :",
-      Aoi2:"Software Project Management,",
-      Aoi3:"Sustem Analysis and Design, Computer Networks, Embedded Systems,Software Engineering",
-      Te1:"Total Experience :",
-      Te2:"17 years",
+      Aoi1: "Area of Interest :",
+      Aoi2: "Software Project Management,",
+      Aoi3: "Sustem Analysis and Design, Computer Networks, Embedded Systems,Software Engineering",
+      Te1: "Total Experience :",
+      Te2: "17 years",
     },
   ];
   return (
@@ -170,43 +170,74 @@ const ChairmanTeam = () => {
 
       <div className="flex justify-center items-center  mt-20 px-10 md:px-0 lg:px-10  ">
         <div className="  flex flex-row flex-wrap justify-center items-center md:gap-x-10 lg:gap-x-4 gap-x-4 gap-y-20 text-center cursor-pointer">
-          {techs.map(({ id, src, title, title2, Q1,Q2, Aoi1, Aoi2, Aoi3, Te1, Te2, style }) => (
-            <div
-              key={id}
-              className={
-                " hover:border-[2px] hover:border-[#FFA800] bg-[#F8F8F8]   shadow-[0px_4px_16px_0px_rgba(0,0,0,0.20)] rounded-[5px]  w-[100%] md:w-[40%] lg:w-[24%] h-fit py-5 pt-16  "
-              }
-            >
-              <img
-                src={src}
-                alt=""
-                className="w-36 bg-transparent mx-auto -mt-28"
-              />
-              <div className="flex flex-col justify-center items-center">
-              <p className="mt-2 text-[#FFA800] text-justify text-xl not-italic font-inter font-semibold leading-[161.523%]">{title}</p>
-              <p className="text-[#B7B7B7] text-justify text-base not-italic font-inter font-normal leading-[161.523%]">{title2}</p>
+          {techs.map(
+            ({
+              id,
+              src,
+              title,
+              title2,
+              Q1,
+              Q2,
+              Aoi1,
+              Aoi2,
+              Aoi3,
+              Te1,
+              Te2,
+              style,
+            }) => (
+              <div
+                key={id}
+                className={
+                  " hover:border-[2px] hover:border-[#FFA800] bg-[#F8F8F8] border-[2px] border-transparent shadow-[0px_4px_16px_0px_rgba(0,0,0,0.20)] rounded-[5px] w-[100%] md:w-[40%] lg:w-[24%] h-fit py-5 pt-16  transition-all duration-500"
+                }
+              >
+                <img
+                  src={src}
+                  alt=""
+                  className="w-36 bg-transparent mx-auto -mt-28"
+                />
+                <div className="flex flex-col justify-center items-center">
+                  <p className="mt-2 text-[#FFA800] text-justify text-xl not-italic font-inter font-semibold leading-[161.523%]">
+                    {title}
+                  </p>
+                  <p className="text-[#B7B7B7] text-justify text-base not-italic font-inter font-normal leading-[161.523%]">
+                    {title2}
+                  </p>
+                </div>
+                <div className="pl-5 pt-3">
+                  <div className="flex flex-row">
+                    <p className="text-black font-inter text-justify text-[14px] not-italic font-bold leading-[161.523%]">
+                      {Q1}
+                    </p>
+                    <p className="text-black text-justify  text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem] px-1 ">
+                      {Q2}
+                    </p>
+                  </div>
+                  <div className="flex flex-row pt-2 ">
+                    <p className="text-black text-justify  text-[14px] not-italic font-bold leading-[161.523%] font-inter ">
+                      {Aoi1}
+                    </p>
+                    <p className="text-black text-justify text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem] px-1">
+                      {Aoi2}
+                    </p>
+                  </div>
+                  <p className="text-black  text-[10px] not-italic font-normal leading-[161.523%] font-inter   ">
+                    {Aoi3}
+                  </p>
+                  <div className="flex flex-row pt-5 py-2">
+                    <p className="text-black text-justify text-[14px] not-italic font-bold leading-[161.523%] font-inter">
+                      {Te1}
+                    </p>
+                    <p className="text-black  text-justify text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem] px-1">
+                      {Te2}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="pl-5 pt-3">
-           <div className="flex flex-row">
-              <p className="text-black font-inter text-justify text-[14px] not-italic font-bold leading-[161.523%]">{Q1}</p>
-              <p className="text-black text-justify  text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem] px-1 ">{Q2}</p>
-              </div>
-              <div className="flex flex-row pt-2 ">
-              <p className="text-black text-justify  text-[14px] not-italic font-bold leading-[161.523%] font-inter ">{Aoi1}</p>
-              <p className="text-black text-justify text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem] px-1">{Aoi2}</p>
-              </div>
-              <p className="text-black  text-[10px] not-italic font-normal leading-[161.523%] font-inter   ">{Aoi3}</p>
-             <div className="flex flex-row pt-5 py-2">
-             <p className="text-black text-justify text-[14px] not-italic font-bold leading-[161.523%] font-inter">{Te1}</p>
-              <p className="text-black  text-justify text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem] px-1">{Te2}</p>
-              </div>
-              </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
-
-      <Inquiry />
     </div>
   );
 };

@@ -20,22 +20,22 @@ import Researchpaper from "./Researchpaper";
 const Home = () => {
   const Data = [
     {
-      imgSrc: "./img/ik1.png",
+      imgSrc: "/img/ik1.png",
     },
     {
-      imgSrc: "./img/ik2.png",
+      imgSrc: "/img/ik2.png",
     },
     {
-      imgSrc: "./img/ik3.png",
+      imgSrc: "/img/ik3.png",
     },
     {
-      imgSrc: "./img/ik4.png",
+      imgSrc: "/img/ik4.png",
     },
     {
-      imgSrc: "./img/ik5.png",
+      imgSrc: "/img/ik5.png",
     },
     {
-      imgSrc: "./img/ik6.png",
+      imgSrc: "/img/ik6.png",
     },
   ];
   return (
@@ -94,13 +94,19 @@ const Home = () => {
                 </SwiperSlide>
               </div>
             ))}
-            <div className=" flex justify-center lg:pr-16 py-3 ">
+            <div className=" flex justify-center lg:pr-16 py-4 ">
               <div className=" flex flex-row absolute gap-x-40">
                 <div className="button-prev-slide  rounded-full  border-[2px] border-[#B42120]   text-[#B42120] cursor-pointer   ">
-                <BsChevronLeft size={40} className=" rounded-full text-[#B42120] hover:bg-[#B42120] hover:text-[#fff]  p-2  " />
+                  <BsChevronLeft
+                    size={40}
+                    className=" rounded-full text-[#B42120] hover:bg-[#B42120] hover:text-[#fff]  p-2  "
+                  />
                 </div>
                 <div className="button-next-slide   rounded-full  border-[2px] border-[#B42120] text-[#B42120] cursor-pointer">
-                <BsChevronRight size={40} className=" rounded-full text-[#B42120] hover:bg-[#B42120] hover:text-[#fff] p-2 "/>
+                  <BsChevronRight
+                    size={40}
+                    className=" rounded-full text-[#B42120] hover:bg-[#B42120] hover:text-[#fff] p-2 "
+                  />
                 </div>
               </div>
               <div className="flex swiper-paginationauto  justify-center pt-4 py-1  text-[#FFA800] "></div>
@@ -122,7 +128,6 @@ const Home = () => {
       <LatestNews />
       <Placement />
       <Researchpaper />
-      <Inquiry />
     </div>
   );
 };

@@ -1,6 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
 
 const LatestNews = () => {
+  const current = new Date();
+  const month = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const date = `${
+    month[current.getMonth()]
+  } ${current.getDate()}, ${current.getFullYear()}`;
+
+  const [CalDate, setCalDate] = useState(new Date());
   return (
     <>
       {/*==============================================desktop view================ */}
@@ -30,11 +52,13 @@ const LatestNews = () => {
                 stroke-width="2"
               />
             </svg>
-            <div class="flex w-full text-[17px] font-inter items-center text-[#FFF] not-italic leading-normal font-semibold justify-center py-12 px-4 absolute  right-[36%] -top-10">
+            <div class="flex w-full text-[17px] font-inter items-center text-[#FFF] not-italic leading-normal font-semibold justify-center py-12 px-4 absolute  right-[34%] lg:right-[36%] -top-10">
               Calendar
             </div>
 
-            <div className=" w-[360px] h-[364px] border-2  border-[#B42120] bg-[#FFF]"></div>
+            <div className=" w-[360px] h-[364px] border-2  border-[#B42120] bg-[#FFF]">
+              <Calendar onChange={setCalDate} value={CalDate} />
+            </div>
           </div>
 
           {/*====================== calender end========================*/}
@@ -56,8 +80,8 @@ const LatestNews = () => {
                   stroke-width="2"
                 />
               </svg>
-              <div class="flex w-full font-inter text-[17px] items-center text-[#FFF] not-italic leading-normal font-semibold  justify-center py-12 px-4 absolute  right-[34%] -top-10">
-                Aug 8, 2023
+              <div class="flex w-full font-inter text-[17px] items-center text-[#FFF] not-italic leading-normal font-semibold  justify-center py-12 px-4 absolute  right-[28%]  -top-10">
+                <h1>{date}</h1>
               </div>
 
               <div className="w-[360px] h-[87px] border-2  border-[#B42120] bg-[#FFF]">
@@ -86,7 +110,7 @@ const LatestNews = () => {
                   stroke-width="2"
                 />
               </svg>
-              <div class="flex w-full text-[17px] items-center text-[#FFF] font-inter not-italic leading-normal font-semibold justify-center py-12 px-4  absolute   right-[28%] -top-10">
+              <div class="flex w-full text-[17px] items-center text-[#FFF] font-inter not-italic leading-normal font-semibold justify-center py-12 px-4  absolute right-[28%]  -top-10">
                 Upcoming events
               </div>
               <div className=" w-[360px] h-[193px] border-2  border-[#B42120] bg-[#FFF]">
@@ -114,13 +138,14 @@ const LatestNews = () => {
           {/* ===================== Curently end=========================== */}
 
           {/*=====================================Latest News ================ */}
-          <div className="relative">
+          <div className="relative ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="159"
-              height="46"
+              height="47"
               viewBox="0 0 159 46"
               fill="none"
+              className="absolute"
             >
               <path
                 d="M1 1H124.603L156.066 44.4494H1V1Z"
@@ -129,7 +154,7 @@ const LatestNews = () => {
                 stroke-width="2"
               />
             </svg>
-            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute   right-[35%] -top-10">
+            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute right-[28%]   -top-10">
               Latest News
             </div>
 
@@ -189,7 +214,9 @@ const LatestNews = () => {
               Calendar
             </div>
 
-            <div className=" w-[320px] h-[320px] md:w-[450px] border-2  border-[#B42120] bg-[#FFF]"></div>
+            <div className=" w-[320px] h-[360px] md:w-[450px] border-2  border-[#B42120] bg-[#FFF]">
+              <Calendar onChange={setCalDate} value={CalDate} />
+            </div>
           </div>
 
           {/*====================== calender end========================*/}
@@ -211,7 +238,7 @@ const LatestNews = () => {
                   stroke-width="2"
                 />
               </svg>
-              <div class="flex w-full font-inter text-[17px] items-center text-[#FFF] not-italic leading-normal font-semibold  justify-center py-12 px-4 absolute  right-[34%] -top-10">
+              <div class="flex w-full font-inter text-[17px] items-center text-[#FFF] not-italic leading-normal font-semibold  justify-center py-12 px-4 absolute  right-[29%] -top-10">
                 Aug 8, 2023
               </div>
 
@@ -241,10 +268,10 @@ const LatestNews = () => {
                   stroke-width="2"
                 />
               </svg>
-              <div class="flex w-full text-[17px] items-center text-[#FFF] font-inter not-italic leading-normal font-semibold justify-center py-12 px-4  absolute   right-[28%] md:right-[32%] -top-10">
+              <div class="flex w-full text-[17px] items-center text-[#FFF] font-inter not-italic leading-normal font-semibold justify-center py-12 px-4  absolute   right-[26%] md:right-[32%] -top-10">
                 Upcoming events
               </div>
-              <div className=" w-[320px] md:w-[450px] h-[193px] border-2  border-[#B42120] bg-[#FFF]">
+              <div className=" w-[320px] md:w-[450px] h-[193px] border-2  border-[#B42120] bg-[#FFF] ">
                 <div className="flex items-center justify-center">
                   <ul class="list-disc py-5">
                     <li className="py-2 text-[color:var(--02,#FFA800)] text-[18px] font-inter not-italic  font-semibol leading-normal underline">
@@ -269,13 +296,14 @@ const LatestNews = () => {
           {/* ===================== Curently end=========================== */}
 
           {/*=====================================Latest News ================ */}
-          <div className="relative">
+          <div className="relative md:py-16">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="159"
               height="46"
               viewBox="0 0 159 46"
               fill="none"
+              className="absolute md:top-5"
             >
               <path
                 d="M1 1H124.603L156.066 44.4494H1V1Z"
@@ -284,11 +312,11 @@ const LatestNews = () => {
                 stroke-width="2"
               />
             </svg>
-            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute   right-[35%] -top-10">
+            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute   right-[30%] md:right-[34%] -top-10 md:-top-[5%]">
               Latest News
             </div>
 
-            <div className=" w-[320px] md:w-[450px] h-[324px]  border-2  border-[#B42120] bg-[#FFF]">
+            <div className=" w-[320px] md:w-[450px] h-[324px]  border-2  border-[#B42120] bg-[#FFF] ">
               <div className="flex items-center justify-center">
                 <ul class="list-disc py-5">
                   <li className="py-5 text-[#000] font-inter text-[18px] not-italic  font-semibol leading-normal underline">

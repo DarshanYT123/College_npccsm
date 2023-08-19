@@ -2,6 +2,7 @@ import { navLinks } from "../../Components/Navbar/data/data";
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoIosClose } from "react-icons/io";
+
 const Navbar2 = () => {
   const [navbar, setNavbar] = useState(false);
 
@@ -47,14 +48,16 @@ const Navbar2 = () => {
           </div>
           <div>
             <div className="flex flex-row items-center">
-              <div className="flex flex-col ">
-                <h1 className="xl:text-[16px] lg:text-[14px] not-italic font-semibold font-inter leading-normal tracking-[0.24px] text-[#B42120]">
-                  Who We Are?
-                </h1>
-                <h3 className="xl:text-[12px] lg:text-[10px] not-italic font-medium  leading-normal font-inter tracking-[0.12px] text-[#FFA800]">
-                  Administration
-                </h3>
-              </div>
+              <a href="/desk">
+                <div className="flex flex-col">
+                  <h1 className="xl:text-[16px] lg:text-[14px] not-italic font-semibold font-inter leading-normal tracking-[0.24px] text-[#B42120]">
+                    Who We Are?
+                  </h1>
+                  <h3 className="xl:text-[12px] lg:text-[10px] not-italic font-medium  leading-normal font-inter tracking-[0.12px] text-[#FFA800]">
+                    Administration
+                  </h3>
+                </div>
+              </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2"
@@ -86,14 +89,16 @@ const Navbar2 = () => {
                 <path d="M1 0.75V50.75" stroke="black" stroke-opacity="0.4" />
               </svg>
 
-              <div className="flex flex-col px-4">
-                <h1 className="xl:text-[16px] lg:text-[14px] not-italic font-semibold  leading-normal font-inter tracking-[0.24px] text-[#B42120]">
-                  Syllabus
-                </h1>
-                <h3 className="xl:text-[12px] lg:text-[10px] not-italic font-medium  leading-normal font-inter tracking-[0.12px] text-[#FFA800]">
-                  Curriculum
-                </h3>
-              </div>
+              <a href="/syllabus">
+                <div className="flex flex-col px-4">
+                  <h1 className="xl:text-[16px] lg:text-[14px] not-italic font-semibold  leading-normal font-inter tracking-[0.24px] text-[#B42120]">
+                    Syllabus
+                  </h1>
+                  <h3 className="xl:text-[12px] lg:text-[10px] not-italic font-medium  leading-normal font-inter tracking-[0.12px] text-[#FFA800]">
+                    Curriculum
+                  </h3>
+                </div>
+              </a>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -141,13 +146,13 @@ const Navbar2 = () => {
         {/*================================end Navbar1======================= */}
 
         <nav className="pt-5">
-          <div className="flex gap-x-6 bg-[#B42120] px-5 items-center justify-center lg:py-2 xl:py-3">
+          <div className="flex gap-x-6 bg-[#B42120] px-5 items-center justify-around lg:py-2 xl:py-3">
             {navLinks.map((link, index) => {
               return (
                 <ul>
                   <a className="" href={link.path}>
                     <li
-                      className="xl:text-[16px] lg:text-[14px] not-italic font-inter font-medium leading-normal text-[#FFFFFF]  "
+                      className="text-[16px] not-italic font-inter font-medium leading-normal text-[#FFFFFF]  "
                       key={index}
                     >
                       {link.name}

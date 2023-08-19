@@ -57,30 +57,30 @@ const ChairmanDesk = () => {
         </div>
         <div className=" md:py-10 ">
           <div className="w-[105%]  flex  ">
-            <img src="./img/Chairman.png" className="" />
+            <img src="/img/chairman.png" className="" alt="" />
           </div>
           <div className=" flex pt-3 justify-center flex-col ">
-          <div>
-            <h1 className="text-[color:var(--01,#0096F1)]  font-LibreBaskerville text-[24px] text-center not-italic font-bold leading-[177.5%]">
-              Shri Vallabhbhai M. Patel
-            </h1>
-          </div>
-          <div>
-            <h1 className="text-[color:var(--01,#0096F1)] font-inter text-justify text-base not-italic font-bold text-[14px] leading-[177.5%]">
-              Chairman
-              <span className="text-black text-base text-[11px] not-italic font-bold leading-[177.5%]">
-                , Sarva Vidyalaya Kelvani Mandal, Kadi & Gandhinagar
-              </span>
-            </h1>
-          </div>
-          <div className="flex justify-center ">
-            <h1 className="text-[color:var(--01,#0096F1)] font-inter text-justify text-[14px] text-base not-italic font-bold leading-[177.5%]">
-              President
-              <span className="text-black text-base not-italic text-[11px] font-bold leading-[177.5%]">
-                , Kadi Sarva VishvaVidyalaya Gandhinagar
-              </span>
-            </h1>
-          </div>
+            <div>
+              <h1 className="text-[color:var(--01,#0096F1)]  font-LibreBaskerville text-[24px] text-center not-italic font-bold leading-[177.5%]">
+                Shri Vallabhbhai M. Patel
+              </h1>
+            </div>
+            <div>
+              <h1 className="text-[color:var(--01,#0096F1)] font-inter text-justify text-base not-italic font-bold text-[14px] leading-[177.5%]">
+                Chairman
+                <span className="text-black text-base text-[11px] not-italic font-bold leading-[177.5%]">
+                  , Sarva Vidyalaya Kelvani Mandal, Kadi & Gandhinagar
+                </span>
+              </h1>
+            </div>
+            <div className="flex justify-center ">
+              <h1 className="text-[color:var(--01,#0096F1)] font-inter text-justify text-[14px] text-base not-italic font-bold leading-[177.5%]">
+                President
+                <span className="text-black text-base not-italic text-[11px] font-bold leading-[177.5%]">
+                  , Kadi Sarva VishvaVidyalaya Gandhinagar
+                </span>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
@@ -125,8 +125,6 @@ const ChairmanDesk = () => {
           </p>
         </div>
       </div>
-
-      <Inquiry />
     </div>
   );
 };

@@ -4,19 +4,19 @@ import Inquiry from "../Homepage/Inquiry";
 const Contactus = () => {
   return (
     <div>
-    <div className="lg:px-12   pt-10 px-5 py-5">
-    <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
-    Contact Us
+      <div className="lg:px-12   pt-10 px-5 py-5">
+        <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
+          Contact Us
         </h1>
-  </div>
-  <div className="py-2 bg-[#B42120]">
+      </div>
+      <div className="py-2 bg-[#B42120]">
         <h2 className="text-white font-Poppins text-center text-[10px] lg:text-[26px] md:text-[20px] not-italic font-bold leading-[157.833%] tracking-[0.78px] uppercase  ">
-     We are Located Here
+          We are Located Here
         </h2>
       </div>
 
-  <div className="flex justify-center items-center py-7 ">
-  <div className="  hidden   lg:flex ">
+      <div className="flex justify-center items-center py-7 ">
+        <div className="  hidden   lg:flex ">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.722952314491!2d72.3237651739341!3d23.28951440631647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c180b7427aa1f%3A0x1804060cf9c5f6e9!2sN.P.%20College%20Of%20Computer%20Studies%20and%20Mangement!5e0!3m2!1sen!2sin!4v1691823310132!5m2!1sen!2sin"
             width="1200"
@@ -31,13 +31,11 @@ const Contactus = () => {
           ></iframe>{" "}
         </div>
         <div className=" md:hidden  pt-8 ">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.722952314491!2d72.3237651739341!3d23.28951440631647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c180b7427aa1f%3A0x1804060cf9c5f6e9!2sN.P.%20College%20Of%20Computer%20Studies%20and%20Mangement!5e0!3m2!1sen!2sin!4v1691823310132!5m2!1sen!2sin"
-          ></iframe>{" "}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.722952314491!2d72.3237651739341!3d23.28951440631647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c180b7427aa1f%3A0x1804060cf9c5f6e9!2sN.P.%20College%20Of%20Computer%20Studies%20and%20Mangement!5e0!3m2!1sen!2sin!4v1691823310132!5m2!1sen!2sin"></iframe>{" "}
         </div>
-        </div>
+      </div>
 
-        <div className="flex flex-col md:gap-x-5 md:flex-row justify-center py-3  lg:gap-x-32 items-center   ">
+      <div className="flex flex-col md:gap-x-5 md:flex-row justify-center py-3  lg:gap-x-32 items-center   ">
         <div className="flex flex-col px-4 ">
           <h2 className=" font-KaiseiHarunoUmi py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
             Address
@@ -53,21 +51,21 @@ const Contactus = () => {
           </p>
         </div>
         <div className="md:pb-24  flex flex-col pr-24  ">
-        <h2 className=" font-KaiseiHarunoUmi py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
+          <h2 className=" font-KaiseiHarunoUmi py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
             Email
           </h2>
           <div className="  ">
-                  <div className="flex py-1 flex-row gap-x-4 ">
-                    <h2 className=" lg:text-[18px]  text-black text-center text-lg not-italic font-Poppins font-medium leading-[157.833%] ">
-                      info@npccs.org
-                    </h2>
-                  </div>
-                  <div className="flex py-1 flex-row gap-x-4 ">
-                    <h2 className=" text-[18px] text-black text-center text-lg not-italic font-medium font-Poppins leading-[157.833%]">
-                      contact@npccs.org
-                    </h2>
-                  </div>
-              </div>
+            <div className="flex py-1 flex-row gap-x-4 ">
+              <h2 className=" lg:text-[18px]  text-black text-center text-lg not-italic font-Poppins font-medium leading-[157.833%] ">
+                info@npccs.org
+              </h2>
+            </div>
+            <div className="flex py-1 flex-row gap-x-4 ">
+              <h2 className=" text-[18px] text-black text-center text-lg not-italic font-medium font-Poppins leading-[157.833%]">
+                contact@npccs.org
+              </h2>
+            </div>
+          </div>
         </div>
         <div className="flex flex-col lg:pb-[3.3rem] px-4 ">
           <div>
@@ -172,9 +170,7 @@ const Contactus = () => {
             </div>
           </div>
         </div>
-      </div>
-
-<Inquiry/>
+      </div> 
     </div>
   );
 };
@@ -183,7 +179,7 @@ export default Contactus;
 
 // Sarva Vidyalaya Kelvani Mandal has been established in the year 1919, by philanthropist Pujya Chhaganbhai. The basic principle preached by him “Kar Bhala Hoga Bhala” has been driving force for the growth of the education activities managed by the trust. Having started with just 6 students then, today the trust manages and runs various schools and colleges both at Kadi and Gandhinagar with more than 46000 students being educated. Of these 46000 students, around 5800 students both boys and girls stay in the hostels being managed by trust.
 // The trust is being nourished and managed by its alumni who occupy respectable positions in the society. Many of its alumni have settled abroad and they shower in donations to benefit the existing as well as prospective students for providing them with better facilities for study as well as stay.
-// Initially started in the year 1919, the trust currently land of around 165 acres together at Kadi and Gandhinagar. At Kadi the trust currently has a land of 137 acres where in various schools, colleges are being run and at Gandhinagar, the trust has total of 32 acres of land where in various schools, colleges including both technical as well as non technical which include B.Pharm, M.Pharm, MBA, MCA, BBA, BCA, B.Sc., (Bio Technology), M.Sc., (Bio Technology), M.Sc., (IT), B.Ed., M.Ed., PTC, B.Com, Engineering, Polytechnic & Nursing. The trust has made provisions for hostels both for boys and girls and also staff quarters. 
+// Initially started in the year 1919, the trust currently land of around 165 acres together at Kadi and Gandhinagar. At Kadi the trust currently has a land of 137 acres where in various schools, colleges are being run and at Gandhinagar, the trust has total of 32 acres of land where in various schools, colleges including both technical as well as non technical which include B.Pharm, M.Pharm, MBA, MCA, BBA, BCA, B.Sc., (Bio Technology), M.Sc., (Bio Technology), M.Sc., (IT), B.Ed., M.Ed., PTC, B.Com, Engineering, Polytechnic & Nursing. The trust has made provisions for hostels both for boys and girls and also staff quarters.
 // The Trust has always been in the forefront for provision of value based education to all the students irrespective of Caste, Creed, Religion etc. Keeping in with the main motto Kar Bhala Hoga Bhala the trust has surrendered all its management quota seats in all the courses run by it and the admissions to the various courses are strictly conducted on the basis of merit through centralized admission process.
 // he trust has been striving hard for the development of education and related activities since 1919 and looking in to this. The Government of Gujarat invited Sarva Vidyalaya Kelvani Mandal to set up education facilities at Gandhinagar in 1976. At that time the trust was allotted a land of 13 acres for establishing schools for the benefit of the population staying in and around Gandhinagar. Since then the trust has set up many educational institutions and hostels which have proven to be the backbone of the development of education in the state of Gujarat and currently more than 36,000 students are being educated at Gandhinagar of which around 4000 students boys and girls are staying in hostels.
 // With a need to spread education further and develop a kind of professionalism in the young generation of Gujarat, the trust has started the first self financed college, Kalupur Bank Institute of Pharmaceutical Education and Research (KBIPER) offering B.Pharmacy program with the approval of AICTE in the year 1995 for which Government of Gujarat allotted a land measuring 20,000 sq. meters i.e 5 acres. Currently KBIPER is also offering post graduate and doctoral research programs besides B.Pharmacy. The journey of Sarva Vidyalaya continued programs in the year 1998. The trust went on to establish other institutes offering BBA, BCA, B.Com., B.Ed., PTC and other vocational courses.

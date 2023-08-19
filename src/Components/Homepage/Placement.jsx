@@ -75,8 +75,9 @@ const Placement = () => {
             window.innerWidth > 1024 ? 6 : window.innerWidth > 640 ? 2 : 1
           }
           autoplay={{
-            delay: 2500,
+            delay: 2000,
             disableOnInteraction: false,
+            pauseOnMouseEnter: true,
           }}
           loop={true}
           modules={[Autoplay]}
