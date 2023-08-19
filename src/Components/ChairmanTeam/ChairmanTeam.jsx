@@ -169,7 +169,7 @@ const ChairmanTeam = () => {
       </div>
 
       <div className="flex justify-center items-center  mt-20 px-10 md:px-0 lg:px-10  ">
-        <div className="  flex flex-row flex-wrap justify-center items-center md:gap-x-10 lg:gap-x-4 gap-x-4 gap-y-20 text-center cursor-pointer">
+        <div className="  flex flex-row flex-wrap justify-center items-center md:gap-x-10 lg:gap-x-4 gap-x-4 gap-y-28 text-center cursor-pointer">
           {techs.map(
             ({
               id,

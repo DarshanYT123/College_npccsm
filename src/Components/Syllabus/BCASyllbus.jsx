@@ -68,7 +68,7 @@ const BCASyllbus = () => {
                             <div className='relative '>
                                 <div className=' bg-[#B42120]     bottom-[10px] md:bottom-[6px]  px-5 w-[100%] py-2    '>
         
-                                    <h1 className='text-[20px] md:text-[24px]  not-italic font-bold text-white leading-normal '>{data.title}</h1>
+                                    <h1 className='text-[20px] lg:text-[22px]  not-italic font-bold text-white leading-normal '>{data.title}</h1>
         
                                 </div>
                             </div>

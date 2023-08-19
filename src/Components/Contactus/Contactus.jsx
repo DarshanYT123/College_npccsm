@@ -37,7 +37,7 @@ const Contactus = () => {
 
       <div className="flex flex-col md:gap-x-5 md:flex-row justify-center py-3  lg:gap-x-32 items-center   ">
         <div className="flex flex-col px-4 ">
-          <h2 className=" font-KaiseiHarunoUmi py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
+          <h2 className=" font-KaiseiHarunoUmi py-3 md:py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
             Address
           </h2>
           <p className=" lg:text-[18px]  text-justify  text-black font-inter   not-italic font-medium leading-[185.023%] tracking-[0.2px] ">
@@ -51,7 +51,7 @@ const Contactus = () => {
           </p>
         </div>
         <div className="md:pb-24  flex flex-col pr-24  ">
-          <h2 className=" font-KaiseiHarunoUmi py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
+          <h2 className=" font-KaiseiHarunoUmi py-3 md:py-10 text-[color:var(--01,#B42120)] lg:text-[26px]  not-italic font-bold leading-[normal] ">
             Email
           </h2>
           <div className="  ">
@@ -67,13 +67,13 @@ const Contactus = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:pb-[3.3rem] px-4 ">
+        <div className="flex flex-col lg:pb-[3.3rem] pl-10 md:pl-0 px-4 ">
           <div>
-            <h2 className=" py-10  text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi lg:text-[26px]  not-italic font-bold leading-[normal] ">
+            <h2 className="py-3 md:py-10  text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi lg:text-[26px]  not-italic font-bold leading-[normal] ">
               Contact Us
             </h2>
           </div>
-          <div className="flex md:flex-col lg:flex-row  gap-x-5 ">
+          <div className="flex md:flex-col lg:flex-row md:py-0 py-3 gap-x-5 ">
             <div className="flex flex-col gap-y-4  ">
               <div>
                 <h2 className=" font-semibold text-[color:var(--02,#FFA800)] font-inter lg:text-[22px]  not-italic  leading-[normal] ">

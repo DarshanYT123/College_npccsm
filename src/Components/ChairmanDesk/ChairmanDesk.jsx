@@ -4,7 +4,7 @@ import Inquiry from "../Homepage/Inquiry";
 const ChairmanDesk = () => {
   return (
     <div>
-      <div className="lg:px-12   pt-10 px-5 ">
+      <div className="lg:px-14   pt-10 px-7 ">
         <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
           Chairman's Desk
         </h1>

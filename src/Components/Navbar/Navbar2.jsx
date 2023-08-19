@@ -152,7 +152,7 @@ const Navbar2 = () => {
                 <ul>
                   <a className="" href={link.path}>
                     <li
-                      className="text-[16px] not-italic font-inter font-medium leading-normal text-[#FFFFFF]  "
+                      className="text-[17px] not-italic font-inter font-medium leading-normal text-[#FFFFFF]  "
                       key={index}
                     >
                       {link.name}

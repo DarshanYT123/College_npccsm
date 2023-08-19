@@ -3,19 +3,19 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="py-5 bg-[#B42120]">
+      <div className="py-3 bg-[#B42120]">
         <h2 className="text-white font-Poppins text-center text-[10px] lg:text-[26px] md:text-[20px] not-italic font-bold leading-[157.833%] tracking-[0.78px] uppercase  ">
           " DO GOOD : FOR GOOD WILL COME BACK TO YOU "
         </h2>
       </div>
       <div className="py-[0.15rem] bg-[#f0ce49]"></div>
-      <div className="px-5 py-10">
-        <div className="flex flex-col items-start px-5 lg:px-0 lg:flex-row lg:justify-around lg:items-start gap-y-5 lg:gap-x-10">
+      <div className="px-5  py-10">
+        <div className="flex flex-col md:pl-7 lg:pl-0 items-start px-5 md:px-0 md:gap-x-8 md:flex-row lg:justify-around lg:items-start gap-y-5 lg:gap-x-0">
           <div className="flex flex-col lg:gap-y-7">
-            <h2 className="text-[#B42120] text-[18px] lg:text-[25px] font-semibold  ">
+            <h2 className="text-[#B42120] font-KaiseiHarunoUmi py-2 md:py-0 text-[18px] lg:text-[25px] font-semibold  ">
               Reach us
             </h2>
-            <p className="text-[16px] lg:text-[20px] w-80">
+            <p className="text-[16px] lg:text-[20px] md:text-[14px] lg:w-[22rem] font-inter ">
               NPCCSM,Sarva Vidhyalaya Campus
               <br /> Bh.Railway Station,
               <br />
@@ -25,8 +25,8 @@ const Footer = () => {
               <br /> TeleFax : 02764 -244381
             </p>
           </div>
-          <div className="flex flex-col lg:gap-y-7">
-            <h2 className="text-[#B42120] text-[18px] lg:text-[25px] font-semibold  ">
+          <div className="flex flex-col lg:gap-y-7  ">
+            <h2 className="text-[#B42120] text-[18px] lg:text-[25px] py-4 md:py-0 font-KaiseiHarunoUmi font-semibold  ">
               Contact us
             </h2>
             <div className="flex md:flex-col lg:flex-row  gap-x-5 ">
@@ -126,15 +126,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-[0px_4px_24px_0px_rgba(0, 0, 0, 0.25)] flex items-center justify-center">
+          <div className="shadow-[0px_4px_24px_0px_rgba(0, 0, 0, 0.25)] md:px-5 lg:px-0 flex items-center justify-center">
             <iframe
-              className="lg:w-[500px] lg:h-[300px]"
+              className="lg:w-[500px] lg:h-[300px] md:w-[200px] md:h-[100px] "
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.722952314491!2d72.3237651739341!3d23.28951440631647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c180b7427aa1f%3A0x1804060cf9c5f6e9!2sN.P.%20College%20Of%20Computer%20Studies%20and%20Mangement!5e0!3m2!1sen!2sin!4v1691823310132!5m2!1sen!2sin"
             ></iframe>
           </div>
         </div>
       </div>
-      <div className="py-2 bg-[#B42120] md:px-28 lg:pb-0 px-4 md:pb-16 pb-28 flex   justify-between ">
+      <div className="py-2 bg-[#B42120] md:px-28 lg:pb-4 px-4 md:pb-16 pb-28 flex   justify-between ">
         <div className=" justify-start  ">
           <h2 className="  text-[#fff]  text-center text-[8px] md:text-[12px] lg:text-[16px] not-italic font-semibold leading-[157.833%] font-Poppins ">
             @ All rights reserved by NPCCSM

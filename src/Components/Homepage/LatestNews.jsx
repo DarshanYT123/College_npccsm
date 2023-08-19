@@ -28,8 +28,8 @@ const LatestNews = () => {
       {/*==============================================desktop view================ */}
 
       <div className="hidden lg:block">
-        <div className="lg:px-12 px-5 py-5 ">
-          <h1 className=" text-[color:var(--01,#B42120)] text-[20px] lg:text-[32px] not-italic font-semibold font-KaiseiHarunoUmi leading-[normal]">
+        <div className="lg:px-10 px-5 py-5 ">
+          <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi text-[20px] lg:text-[32px] not-italic font-semibold leading-[normal]">
             Latest News
           </h1>
         </div>
@@ -139,22 +139,21 @@ const LatestNews = () => {
 
           {/*=====================================Latest News ================ */}
           <div className="relative ">
-            <svg
+          <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="159"
-              height="47"
-              viewBox="0 0 159 46"
+              width="140"
+              height="45"
+              viewBox="0 0 140 45"
               fill="none"
-              className="absolute"
             >
               <path
-                d="M1 1H124.603L156.066 44.4494H1V1Z"
+                d="M1 1H110.203L138 44H1V1Z"
                 fill="#B42120"
                 stroke="#B42120"
                 stroke-width="2"
               />
             </svg>
-            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute right-[28%]   -top-10">
+            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute right-[32%]   -top-10">
               Latest News
             </div>
 
@@ -296,22 +295,22 @@ const LatestNews = () => {
           {/* ===================== Curently end=========================== */}
 
           {/*=====================================Latest News ================ */}
-          <div className="relative md:py-16">
-            <svg
+          <div className="relative ">
+          <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="159"
-              height="46"
-              viewBox="0 0 159 46"
+              width="140"
+              height="45"
+              viewBox="0 0 140 45"
               fill="none"
-              className="absolute md:top-5"
             >
               <path
-                d="M1 1H124.603L156.066 44.4494H1V1Z"
+                d="M1 1H110.203L138 44H1V1Z"
                 fill="#B42120"
                 stroke="#B42120"
                 stroke-width="2"
               />
             </svg>
+            
             <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute   right-[30%] md:right-[34%] -top-10 md:-top-[5%]">
               Latest News
             </div>

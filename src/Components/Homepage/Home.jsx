@@ -43,8 +43,8 @@ const Home = () => {
       <div className="md:flex md:gap-x-7 md:px-7 lg:gap-x-20 px-5  lg:px-14 md:justify-between items-center ">
         <div className="flex flex-col lg:pl-10 py-5 lg:py-20 gap-y-1 ">
           <div>
-            <h2 className="  text-[color:var(--01,#B42120)] text-[20px] lg:text-[32px] not-italic font-bold font-KaiseiHarunoUmi leading-[normal] ">
-              Narsinhbhai Patel College
+            <h2 className="  text-[color:var(--01,#B42120)] text-[18px] lg:text-[33px] not-italic font-bold font-KaiseiHarunoUmi leading-[normal] ">
+            Narsinhbhai Patel College 
             </h2>
           </div>
           <div className="flex flex-col lg:flex-row">

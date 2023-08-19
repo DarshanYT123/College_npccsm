@@ -32,15 +32,15 @@ const Sports = () => {
         </p>
       </div>
       <div className="flex flex-col gap-y-10 py-10 px-14">
-        <div className=" flex flex-col md:flex-row md:gap-x-10">
-          <div className="md:w-[40%]">
+        <div className=" flex flex-col md:flex-col lg:flex-row md:gap-x-10">
+          <div className="lg:w-[40%]  ">
             <img src="./img/kabbdi.png" className="" alt="" />
           </div>
-          <div className="flex flex-col md:w-[60%]">
-            <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
+          <div className="flex flex-col  lg:w-[60%]">
+            <h1 className=" text-[color:var(--01,#B42120)] lg:pt-0 md:pt-8 font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
               Kabbdi
             </h1>
-            <p className="text-[16px] font-inter  text-justify  pt-5 not-italic font-medium leading-[202.523%] ">
+            <p className="text-[16px]  font-inter  text-justify  pt-5 not-italic font-medium leading-[202.523%] ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis
               scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit
@@ -60,9 +60,9 @@ const Sports = () => {
             </p>
           </div>
         </div>
-        <div className=" flex flex-col md:flex-row gap-x-10 ">
-          <div className="md:w-[60%]">
-            <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
+        <div className=" flex flex-col lg:flex-row gap-x-10 ">
+          <div className="lg:w-[60%]">
+            <h1 className=" text-[color:var(--01,#B42120)] lg:py-0 md:py-3 font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
               Cricket
             </h1>
             <p className="text-[16px]  text-justify font-inter  pt-5 not-italic font-medium leading-[202.523%]  ">
@@ -84,7 +84,7 @@ const Sports = () => {
               venenatis nisl, a dignissim lectus augue tincidunt arcu.
             </p>
           </div>
-          <div className="md:w-[40%]">
+          <div className="lg:w-[40%] md:py-7 lg:py-0 ">
             <img src="./img/cricket.png" alt="Cricket" />
           </div>
         </div>

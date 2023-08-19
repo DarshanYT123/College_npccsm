@@ -135,7 +135,7 @@ const Placement = () => {
               ? 2
               : window.innerWidth > 640
               ? 1
-              : 2
+              : 1
           }
           centeredSlides={false}
           loop={true}
@@ -159,7 +159,7 @@ const Placement = () => {
               </SwiperSlide>
             </div>
           ))}
-          <div className=" flex justify-center lg:pr-16 py-3 ">
+          <div className=" flex justify-center lg:pr-16 py-5 ">
             <div className=" flex flex-row absolute gap-x-40">
               <div className="button-prev-slide  rounded-full  border-[2px] border-[#B42120]   text-[#B42120] cursor-pointer   ">
                 <BsChevronLeft

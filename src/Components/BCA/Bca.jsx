@@ -19,7 +19,7 @@ const Bca = () => {
   ];
   return (
     <>
-      <div className="lg:px-12   pt-10 px-5 py-5">
+      <div className="lg:px-11   pt-10 px-5 py-5">
         <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
           All About BCA in NPCCSM
         </h1>
@@ -52,7 +52,7 @@ const Bca = () => {
 
           <div className="">
             <img
-              src="/img/npc1.png"
+              src="/img/imgbca1.png"
               alt="image1"
               className="w-[470rem] h-[25rem] md:w-[200rem] md:[20rem]  lg:w-[470rem] lg:h-[25rem]"
             />
@@ -78,7 +78,7 @@ const Bca = () => {
         <div className="flex flex-col items-center gap-6   lg:flex-row ">
           <div className="">
             <img
-              src="/img/npc1.png"
+              src="/img/imgbca2.png"
               alt="image1"
               className="w-[470rem] h-[25rem] md:w-[200rem] md:[20rem]  lg:w-[470rem] lg:h-[25rem]"
             />

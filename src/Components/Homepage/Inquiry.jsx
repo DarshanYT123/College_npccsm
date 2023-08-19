@@ -43,8 +43,8 @@ const Inquiry = () => {
         </div>
 
         {/*=======================================Inquiry form */}
-        <form onSubmit={handleSubmit} className="bg-[#F0F0F0]">
-          <div className="flex flex-row space-x-20 items-center justify-center pt-5 pb-5 ">
+        <form onSubmit={handleSubmit} className="bg-[#F0F0F0] ">
+          <div className="flex flex-row space-x-20 items-center justify-center pt-10 pb-5 ">
             <div className="flex flex-col items-center justify-center">
               {/*===================================Full Name=================== */}
               <div className="relative   pb-10">
@@ -245,7 +245,7 @@ const Inquiry = () => {
 
             <div className="">
               {/*===================================State=================== */}
-              <div className=" relative  pb-6 ">
+              <div className=" relative pb-10 ">
                 <div className="absolute inset-x-0 left-[3px] flex items-center pl-2 p-2 pointer-events-none">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -300,7 +300,7 @@ const Inquiry = () => {
               {/*=====================================================State End======================= */}
 
               {/*====================================================Course Name========================*/}
-              <div className="relative  pb-6 ">
+              <div className="relative  pb-10 ">
                 <div className="absolute inset-x-0 left-[3px] flex items-center pl-2 p-2 pointer-events-none">
                   <MdGolfCourse size={25} className="text-[#B42120] " />
 
@@ -335,7 +335,7 @@ const Inquiry = () => {
               {/*====================================================Course End========================*/}
 
               {/*====================================================Last School Name========================*/}
-              <div className="relative  pb-6">
+              <div className="relative  pb-10">
                 <div className="absolute inset-x-0 left-[3px] flex items-center pl-2 p-2 pointer-events-none">
                   <FaSchool size={25} className=" text-[#B42120] " />
 
@@ -371,7 +371,7 @@ const Inquiry = () => {
               {/*====================================================Last School Name End========================*/}
 
               {/*====================================================Write Inquiry========================*/}
-              <div className="relative  pb-[34px]">
+              <div className="relative  pb-10">
                 <div className="absolute inset-x-0 left-[3px] flex items-center pl-2 p-2 pointer-events-none">
                   <BsMessenger size={25} className="text-[#B42120] " />
 
@@ -390,10 +390,10 @@ const Inquiry = () => {
                     />
                   </svg>
                 </div>
-                <textarea
+                <input
                   type="text"
                   id="writeInquiry"
-                  className="resize-none font-Poppins  w-[412px] h-[90px] text-[16px] not-italic font-normal leading-[157.833%] tracking-[0.48px] border p-3 justify-center bg-[#FFF] rounded-[5px] border-[#B7B7B7] block  pl-14 "
+                  className="resize-none font-Poppins  w-[412px] h-[40px] text-[16px] not-italic font-normal leading-[157.833%] tracking-[0.48px] border p-3 justify-center bg-[#FFF] rounded-[5px] border-[#B7B7B7] block  pl-14 "
                   placeholder="Write Inquiry End"
                   tabIndex={8}
                   name="writeInquiry"
