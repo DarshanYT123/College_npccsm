@@ -7,6 +7,7 @@ import Contactus from "./Components/Contactus/Contactus";
 import ChairmanDesk from "./Components/ChairmanDesk/ChairmanDesk";
 import ChairmanTeam from "./Components/ChairmanTeam/ChairmanTeam";
 import Syllabus from "./Components/Syllabus/Syllabus";
+import PlacementPartner from "./Components/Placement/PlacementPartner";
 import Ncc from "./Components/Ncc/Ncc";
 import Nss from "./Components/Nss/Nss";
 import Sports from "./Components/Sports/Sports";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/ncc" element={<Ncc />} />
           <Route path="/nss" element={<Nss />} />
           <Route path="/sports" element={<Sports />} />
+          <Route path="/placementpartner" element={<PlacementPartner />} />
           <Route path="/bca" element={<Bca />} />
           <Route path="/bba" element={<Bba />} />
         </Routes>
