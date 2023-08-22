@@ -237,7 +237,7 @@ const LatestNews = () => {
                   stroke-width="2"
                 />
               </svg>
-              <div class="flex w-full font-inter text-[17px] items-center text-[#FFF] not-italic leading-normal font-semibold  justify-center py-12 px-4 absolute  right-[29%] -top-10">
+              <div class="flex w-full font-inter text-[17px] items-center text-[#FFF] not-italic leading-normal font-semibold  justify-center py-12 px-4 absolute  right-[29%] md:right-[34%]  -top-10">
                 Aug 8, 2023
               </div>
 
@@ -311,7 +311,7 @@ const LatestNews = () => {
               />
             </svg>
             
-            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute   right-[30%] md:right-[34%] -top-10 md:-top-[5%]">
+            <div class="flex w-full text-[17px] items-center text-[#FFF] not-italic leading-normal font-inter font-semibold justify-center py-12 px-4  absolute   right-[30%] md:right-[34%] -top-10 md:top-[-8%]">
               Latest News
             </div>
 
