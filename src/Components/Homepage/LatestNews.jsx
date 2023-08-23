@@ -56,7 +56,7 @@ const LatestNews = () => {
               Calendar
             </div>
 
-            <div className=" w-[360px] h-[364px] border-2  border-[#B42120] bg-[#FFF]">
+            <div className=" w-[330px] h-[312px] border-2  border-[#B42120] bg-[#FFF]">
               <Calendar onChange={setCalDate} value={CalDate} />
             </div>
           </div>
@@ -84,7 +84,7 @@ const LatestNews = () => {
                 <h1>{date}</h1>
               </div>
 
-              <div className="w-[360px] h-[87px] border-2  border-[#B42120] bg-[#FFF]">
+              <div className="w-[360px] h-[67px] border-2  border-[#B42120] bg-[#FFF]">
                 <div className="flex items-center justify-center">
                   <h2 className="text-[color:var(--02,#FFA800)] font-inter text-[22px] not-italic  font-semibol leading-normal pt-5">
                     {" "}
@@ -113,19 +113,19 @@ const LatestNews = () => {
               <div class="flex w-full text-[17px] items-center text-[#FFF] font-inter not-italic leading-normal font-semibold justify-center py-12 px-4  absolute right-[28%]  -top-10">
                 Upcoming events
               </div>
-              <div className=" w-[360px] h-[193px] border-2  border-[#B42120] bg-[#FFF]">
+              <div className=" w-[360px] h-[163px] border-2  border-[#B42120] bg-[#FFF]">
                 <div className="flex items-center justify-center">
-                  <ul class="list-disc py-5">
-                    <li className="py-2 text-[color:var(--02,#FFA800)] text-[18px] font-inter not-italic  font-semibol leading-normal underline">
+                  <ul class="list-disc py-3">
+                    <li className="py-1 text-[color:var(--02,#FFA800)] text-[18px] font-inter not-italic  font-semibol leading-normal underline">
                       Lorem ipsum dolor sit amet
                     </li>
-                    <li className="py-2 text-[color:var(--02,#FFA800)] text-[18px] not-italic font-inter  font-semibol leading-normal underline">
+                    <li className="py-1 text-[color:var(--02,#FFA800)] text-[18px] not-italic font-inter  font-semibol leading-normal underline">
                       Lorem ipsum dolor sit amet
                     </li>
-                    <li className="py-2 text-[color:var(--02,#FFA800)] text-[18px] not-italic font-inter font-semibol leading-normal underline">
+                    <li className="py-1 text-[color:var(--02,#FFA800)] text-[18px] not-italic font-inter font-semibol leading-normal underline">
                       Lorem ipsum dolor sit amet
                     </li>
-                    <li className="py-2 text-[color:var(--02,#FFA800)] text-[18px] not-italic font-inter font-semibol leading-normal underline">
+                    <li className="py-1 text-[color:var(--02,#FFA800)] text-[18px] not-italic font-inter font-semibol leading-normal underline">
                       Lorem ipsum dolor sit amet
                     </li>
                   </ul>
@@ -157,7 +157,7 @@ const LatestNews = () => {
               Latest News
             </div>
 
-            <div className=" w-[360px] h-[364px] border-2  border-[#B42120] bg-[#FFF]">
+            <div className=" w-[360px] h-[312px] border-2  border-[#B42120] bg-[#FFF]">
               <div className="flex items-center justify-center">
                 <ul class="list-disc py-5">
                   <li className="py-5 text-[#000] font-inter text-[18px] not-italic  font-semibol leading-normal underline">

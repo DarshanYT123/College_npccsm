@@ -110,7 +110,7 @@ const Navbar2 = () => {
               >
                 <path d="M1 0.75V50.75" stroke="black" stroke-opacity="0.4" />
               </svg>
-
+              <a href="/placementpartner">
               <div className="flex flex-col px-4">
                 <h1 className="xl:text-[16px] lg:text-[14px] not-italic font-semibold  leading-normal font-inter tracking-[0.24px] text-[#B42120]">
                   Placements
@@ -119,7 +119,7 @@ const Navbar2 = () => {
                   Know More
                 </h3>
               </div>
-
+</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2"

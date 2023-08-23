@@ -12,7 +12,7 @@ const PlacedStudent = () => {
       Q2: "Ph.D,M.Phil(CS),MCA,B.Sc.",
       Aoi1: "Company :",
       Aoi2: "xyz",
-      Te1: "Review :",
+      Te1: "Review:",
       Te2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum id sapien. ",
     },
     {
@@ -24,7 +24,7 @@ const PlacedStudent = () => {
         Q2: "Ph.D,M.Phil(CS),MCA,B.Sc.",
         Aoi1: "Company :",
         Aoi2: "xyz",
-        Te1: "Review :",
+        Te1: "Review:",
         Te2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum id sapien. ",
       },
       {
@@ -36,8 +36,8 @@ const PlacedStudent = () => {
         Q2: "Ph.D,M.Phil(CS),MCA,B.Sc.",
         Aoi1: "Company :",
         Aoi2: "xyz",
-        Te1: "Review :",
-        Te2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum id sapien. ",
+        Te1: "Review:",
+        Te2: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum id sapien. ",
       },
       {
         id: 4,
@@ -48,7 +48,7 @@ const PlacedStudent = () => {
         Q2: "Ph.D,M.Phil(CS),MCA,B.Sc.",
         Aoi1: "Company :",
         Aoi2: "xyz",
-        Te1: "Review :",
+        Te1: "Review:",
         Te2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nunc a molestie dictum. Mauris venenatis, felis scelerisque aliquet lacinia, nulla nisi venenatis odio, id blandit mauris ipsum id sapien. ",
       },
           ];
@@ -74,7 +74,7 @@ const PlacedStudent = () => {
               <div
                 key={id}
                 className={
-                  " hover:border-[2px] hover:border-[#FFA800] bg-[#F8F8F8] border-[2px] border-transparent shadow-[0px_4px_16px_0px_rgba(0,0,0,0.20)] rounded-[5px] w-[100%] md:w-[40%] lg:w-[24%] h-fit py-5 pt-16  transition-all duration-500"
+                  " border-t-4 border-[#FFA800]  bg-[#F8F8F8]  shadow-[0px_4px_16px_0px_rgba(0,0,0,0.20)] rounded-[5px] w-[100%] md:w-[40%] lg:w-[24%] h-fit py-5 pt-16  transition-all duration-500"
                 }
               >
                 <img
@@ -95,7 +95,7 @@ const PlacedStudent = () => {
                     <p className="text-black font-inter text-justify text-[14px] not-italic font-bold leading-[161.523%]">
                       {Q1}
                     </p>
-                    <p className="text-black text-justify  text-[12px] text-[#0096F1] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.25rem] px-1 ">
+                    <p className="text-black text-justify  text-[12px]  not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.15rem] px-1 ">
                       {Q2}
                     </p>
                   </div>
@@ -103,15 +103,15 @@ const PlacedStudent = () => {
                     <p className="text-black text-justify  text-[14px] not-italic font-bold leading-[161.523%] font-inter ">
                       {Aoi1}
                     </p>
-                    <p className="  text-[12px] text-[#0096F1] text-justify  not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.25rem] px-1">
+                    <p className="  text-[12px] text-[#0096F1] text-justify  not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.15rem] px-1">
                       {Aoi2}
                     </p>
                   </div>
-                  <div className="flex flex-row  py-2">
-                    <p className="text-black text-justify text-[14px] not-italic font-bold leading-[161.523%] font-inter">
+                  <div className="flex flex-row  py-2 ">
+                    <p className="text-black text-justify text-[14px] not-italic font-bold leading-[161.523%] font-inter ">
                       {Te1}
                     </p>
-                    <p className="text-black  text-justify text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem]  px-1">
+                    <p className="text-black  text-justify text-[10px] not-italic font-normal leading-[161.523%] font-inter mt-[0.2rem] md:mt-[0.35rem]  px-3">
                       {Te2}
                     </p>
                   </div>
