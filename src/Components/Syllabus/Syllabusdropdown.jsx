@@ -6,7 +6,7 @@ const Syllabusdropdown = ({ selected, setSelected }) => {
     const option = [' BCA ','MCA']
     return (
         <div className='dropdown w-[180px] h-[50px]  relative z-50' >
-            <div className='text-white text-[22px] px-8 md:px-10 lg:px-14  bg-[#B42120] w-[180px] h-[50px]   text-left p-2  dropdown-btn rounded-[3px]'
+            <div className='text-white text-[22px] px-8 md:px-10 lg:px-14  bg-[#B42120] md:w-[180px] md:h-[50px]   text-left p-2  dropdown-btn rounded-[3px]'
 
                 onClick={(e) => SetIsActive(!isActive)}>
 

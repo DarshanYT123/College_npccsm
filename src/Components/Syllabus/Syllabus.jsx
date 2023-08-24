@@ -11,8 +11,11 @@ const Syllabus = () => {
 
 
             <div class="flex justify-between py-8 px-6 md:px-10 lg:px-20 ">
-                <div className="text-[28px] text-[#B42120] font-bold not-italic leading">Syllabus</div>
-
+            <div className="   ">
+        <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[26px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
+          Syllabus
+        </h1>
+      </div>
                 {/*=================drop down====== */}
 
 

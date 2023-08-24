@@ -4,7 +4,7 @@ import Inquiry from "../Homepage/Inquiry";
 const Contactus = () => {
   return (
     <div>
-      <div className="lg:px-12   pt-10 px-5 py-5">
+      <div className="lg:px-12   pt-7 px-5 py-5">
         <h1 className=" text-[color:var(--01,#B42120)] font-KaiseiHarunoUmi md:text-[25px]  text-[16px]  lg:text-[32px] not-italic font-semibold leading-[normal]">
           Contact Us
         </h1>
